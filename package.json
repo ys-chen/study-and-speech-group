@@ -1,11 +1,14 @@
 {
-  "name": "watch-doctor-website",
+  "name": "study-and-speech-group",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -17,7 +20,30 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "env": {
+      "node": true,
+      "browser": true,
+      "jest": true
+    },
+    "extends": "airbnb",
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": [
+            "node_modules",
+            "src/"
+          ]
+        }
+      }
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-sass-guidelines",
+    "plugins": "stylelint-scss",
+    "ignoreFiles": [
+      "**/*.js",
+      "**/*.jsx"
+    ]
   },
   "browserslist": {
     "production": [
@@ -30,5 +56,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "stylelint": "^13.6.0",
+    "stylelint-config-sass-guidelines": "^7.0.0",
+    "stylelint-scss": "^3.17.2"
   }
 }
