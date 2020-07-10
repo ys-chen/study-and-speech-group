@@ -5,8 +5,7 @@ function Speaker({
   avatar, name, title, subject, description,
 }) {
   return (
-    <div className="box">
-
+    <div className="box" data-aos="fade-up">
       <div className="columns">
         <div className="column">
           <div className="columns is-vcentered">
@@ -21,9 +20,7 @@ function Speaker({
               <div className="is-size-4 my-3 has-text-primary">{subject}</div>
             </div>
           </div>
-
         </div>
-
       </div>
       <div className="columns">
         <div className="column content is-desktop">

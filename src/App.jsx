@@ -1,11 +1,17 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
+import AOS from 'aos';
 import madeWithBulma from 'assets/made-with-bulma.png';
 import Speaker from './components/Speaker';
 import InfoCard from './components/InfoCard';
 import speakerContext from './context/speaker';
 import 'App.scss';
+
+AOS.init({
+  duration: 1000,
+  once: true,
+});
 
 function Title({ children }) {
   return (
