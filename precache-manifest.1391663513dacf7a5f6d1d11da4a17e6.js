@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0299db7e5adf817c4c16546888b194e",
+    "revision": "4de4dc619c9a3f08c2fc56ce2e046e5d",
     "url": "/study-and-speech-group/index.html"
   },
   {
-    "revision": "28fdcef63a0f4e2ec6bf",
+    "revision": "419c7e9ce7575c6410e0",
     "url": "/study-and-speech-group/static/css/2.1458ab16.chunk.css"
   },
   {
-    "revision": "c564d112c66de75537a5",
+    "revision": "cc0ee3d9920d3ce92a0e",
     "url": "/study-and-speech-group/static/css/main.8702b3ce.chunk.css"
   },
   {
-    "revision": "28fdcef63a0f4e2ec6bf",
-    "url": "/study-and-speech-group/static/js/2.bef1c7f7.chunk.js"
+    "revision": "419c7e9ce7575c6410e0",
+    "url": "/study-and-speech-group/static/js/2.07231c33.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/study-and-speech-group/static/js/2.bef1c7f7.chunk.js.LICENSE.txt"
+    "url": "/study-and-speech-group/static/js/2.07231c33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c564d112c66de75537a5",
-    "url": "/study-and-speech-group/static/js/main.0ca46e94.chunk.js"
+    "revision": "cc0ee3d9920d3ce92a0e",
+    "url": "/study-and-speech-group/static/js/main.16b9e2e3.chunk.js"
   },
   {
     "revision": "3ff85d4dcde7d1233971",
@@ -53,7 +53,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "fa6493a745209f9f7204753dccd83ee9",
-    "url": "/study-and-speech-group/static/media/avatar.fa6493a7.png"
+    "url": "/study-and-speech-group/static/media/avatar1.fa6493a7.png"
+  },
+  {
+    "revision": "8aac022a4f7415a417697bdc2e478496",
+    "url": "/study-and-speech-group/static/media/avatar2.8aac022a.png"
   },
   {
     "revision": "f326a532187d9873d0d40c2662104383",

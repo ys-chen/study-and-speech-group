@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/study-and-speech-group/static/css/main.8702b3ce.chunk.css",
-    "main.js": "/study-and-speech-group/static/js/main.0ca46e94.chunk.js",
-    "main.js.map": "/study-and-speech-group/static/js/main.0ca46e94.chunk.js.map",
+    "main.js": "/study-and-speech-group/static/js/main.16b9e2e3.chunk.js",
+    "main.js.map": "/study-and-speech-group/static/js/main.16b9e2e3.chunk.js.map",
     "runtime-main.js": "/study-and-speech-group/static/js/runtime-main.0bbe16fd.js",
     "runtime-main.js.map": "/study-and-speech-group/static/js/runtime-main.0bbe16fd.js.map",
     "static/css/2.1458ab16.chunk.css": "/study-and-speech-group/static/css/2.1458ab16.chunk.css",
-    "static/js/2.bef1c7f7.chunk.js": "/study-and-speech-group/static/js/2.bef1c7f7.chunk.js",
-    "static/js/2.bef1c7f7.chunk.js.map": "/study-and-speech-group/static/js/2.bef1c7f7.chunk.js.map",
+    "static/js/2.07231c33.chunk.js": "/study-and-speech-group/static/js/2.07231c33.chunk.js",
+    "static/js/2.07231c33.chunk.js.map": "/study-and-speech-group/static/js/2.07231c33.chunk.js.map",
     "index.html": "/study-and-speech-group/index.html",
-    "precache-manifest.db9131bf572c5c6bde46ecca98b4d1f6.js": "/study-and-speech-group/precache-manifest.db9131bf572c5c6bde46ecca98b4d1f6.js",
+    "precache-manifest.1391663513dacf7a5f6d1d11da4a17e6.js": "/study-and-speech-group/precache-manifest.1391663513dacf7a5f6d1d11da4a17e6.js",
     "service-worker.js": "/study-and-speech-group/service-worker.js",
     "static/css/2.1458ab16.chunk.css.map": "/study-and-speech-group/static/css/2.1458ab16.chunk.css.map",
     "static/css/main.8702b3ce.chunk.css.map": "/study-and-speech-group/static/css/main.8702b3ce.chunk.css.map",
-    "static/js/2.bef1c7f7.chunk.js.LICENSE.txt": "/study-and-speech-group/static/js/2.bef1c7f7.chunk.js.LICENSE.txt",
+    "static/js/2.07231c33.chunk.js.LICENSE.txt": "/study-and-speech-group/static/js/2.07231c33.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/study-and-speech-group/static/media/fa-solid-900.ec763292.svg",
-    "static/media/avatar.png": "/study-and-speech-group/static/media/avatar.fa6493a7.png",
+    "static/media/avatar1.png": "/study-and-speech-group/static/media/avatar1.fa6493a7.png",
+    "static/media/avatar2.png": "/study-and-speech-group/static/media/avatar2.8aac022a.png",
     "static/media/made-with-bulma.png": "/study-and-speech-group/static/media/made-with-bulma.e0eab74d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0bbe16fd.js",
     "static/css/2.1458ab16.chunk.css",
-    "static/js/2.bef1c7f7.chunk.js",
+    "static/js/2.07231c33.chunk.js",
     "static/css/main.8702b3ce.chunk.css",
-    "static/js/main.0ca46e94.chunk.js"
+    "static/js/main.16b9e2e3.chunk.js"
   ]
 }
