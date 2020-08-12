@@ -47,15 +47,23 @@ function App() {
           <div className="columns">
             <InfoCard title="參與前">
               <ul>
-                <li>
-                  時間：2020/9 20:30-21:30 PM
-                  <span className="tag is-danger mx-1">未定</span>
-                </li>
+                <li>時間：2020/9/16 (三) 20:00-21:00 PM</li>
                 <li>類型：線上讀書會</li>
                 <li>
                   工具：開場前十分鐘發送會議代碼，聽眾自行登入
                   <a href="https://meet.google.com/"> Google Meet </a>
                   。
+                </li>
+                <li>
+                  裝置：電腦請開啟
+                  <a href="https://meet.google.com/">網頁版</a>
+                  ，手機則分別下載
+                  <a href="https://apps.apple.com/tw/app/google-meet/id1013231476"> iOS </a>
+                  /
+                  <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=zh_TW"> Android </a>
+                  app。（或是透過
+                  <a href="https://www.google.com/gmail/"> Gmail </a>
+                  亦可）
                 </li>
               </ul>
             </InfoCard>
@@ -114,27 +122,27 @@ function App() {
             </thead>
             <tbody>
               <tr>
-                <td>20:20</td>
+                <td>19:50</td>
                 <td>發送 Google Meet 會議代碼</td>
               </tr>
               <tr>
-                <td>20:30-20:50</td>
+                <td>20:00-20:20</td>
                 <td>第一位講者</td>
+              </tr>
+              <tr>
+                <td>20:20-20:30</td>
+                <td>討論時間</td>
+              </tr>
+              <tr>
+                <td>20:30-20:50</td>
+                <td>第二位講者</td>
               </tr>
               <tr>
                 <td>20:50-21:00</td>
                 <td>討論時間</td>
               </tr>
               <tr>
-                <td>21:00-21:20</td>
-                <td>第二位講者</td>
-              </tr>
-              <tr>
-                <td>21:20-21:30</td>
-                <td>討論時間</td>
-              </tr>
-              <tr>
-                <td>21:30</td>
+                <td>21:00</td>
                 <td>填寫回饋問卷，結束</td>
               </tr>
             </tbody>
@@ -145,7 +153,7 @@ function App() {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>
-            Hand crafted by
+            Hand crafted by Niko
             <span className="icon">
               <i className="fas fa-heart" />
             </span>

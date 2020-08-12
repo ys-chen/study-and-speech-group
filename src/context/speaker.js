@@ -1,8 +1,9 @@
-import avatar from '../assets/avatar.png';
+import avatar1 from '../assets/avatar1.png';
+import avatar2 from '../assets/avatar2.png';
 
 const speakerContext = [
   {
-    avatar,
+    avatar: avatar1,
     name: 'Niko',
     title: '網頁前端工程師',
     subject: '蔡康永的情商課：為你自己活一次',
@@ -20,16 +21,21 @@ const speakerContext = [
     ],
   },
   {
-    avatar,
+    avatar: avatar2,
     name: 'Eason',
     title: '產品企劃',
     subject: '我一定要跟你聊超過15分鐘',
     description: [
       {
-        text: '開場、提問、接話，從搭訕、陌生拜訪、到凝聚感情……幫助百萬人從此擺脫尷尬、緊張與冷場',
+        text: '這本是提供給一般大眾基礎練習的聊天方法，但別妄想看完書就變得很厲害，沒這回事。',
         tag: 'blockquote',
       },
-      { text: 'DEF' },
+      {
+        text: '但為何要聊超過15分鐘呢？',
+      },
+      {
+        text: '其實無論是業務開發或與陌生人交談都會需要提供有價值的交談內容，唯有如此才能與多數的人繼續聊天，15分鐘是一個指標，其實代表你成功一半咯！',
+      },
     ],
   },
 ];
