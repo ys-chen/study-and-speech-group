@@ -47,7 +47,7 @@ function App() {
           <div className="columns">
             <InfoCard title="參與前">
               <ul>
-                <li>時間：2020/9/16 (三) 20:00-21:00 PM</li>
+                <li>時間：2020/10/14 (三) 20:00-21:00 PM</li>
                 <li>類型：線上讀書會</li>
                 <li>
                   工具：開場前十分鐘發送會議代碼，聽眾自行登入
