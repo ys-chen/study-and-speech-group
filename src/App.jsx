@@ -43,6 +43,20 @@ Button.propTypes = {
   url: PropTypes.string.isRequired,
 };
 
+function BackToTop() {
+  const scrollTop = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  const buttonStyle = {
+    position: 'fixed', right: '1rem', bottom: '1rem', borderRadius: '50%',
+  };
+  return (
+    <button className="button is-link" type="button" onClick={scrollTop} style={buttonStyle} id="back-to-top">
+      <span className="icon is-small">
+        <i className="fas fa-arrow-up" />
+      </span>
+    </button>
+  );
+}
+
 function App() {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -64,10 +78,28 @@ function App() {
     });
   }, []);
 
+  useEffect(() => {
+    const toggleBackToTopButton = (entries) => {
+      const el = document.querySelector('#back-to-top');
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          //  只在目標元素進入 viewport 時執行這裡的工作
+          el.style.visibility = 'hidden';
+        } else {
+          // 只在目標元素離開 viewport 時執行這裡的工作
+          el.style.visibility = 'visible';
+        }
+      });
+    };
+    const title = document.querySelector('#hero-title');
+    const observer = new IntersectionObserver(toggleBackToTopButton, {});
+    observer.observe(title);
+  }, []);
+
   return (
     <div className="App">
       {/* Hero title */}
-      <section className="hero is-bold has-text-centered banner">
+      <section className="hero is-bold has-text-centered banner" id="hero-title">
         <div className="hero-body">
           <div className="py-5 border-box container">
             <div className="title is-size-1">讀書分享會</div>
@@ -169,7 +201,7 @@ function App() {
                       <span className="tag is-warning is-light is-medium px-0">回饋意見表單</span>
                       ，感謝參與，連結將在結束後發送。
                     </li>
-                    <li>報名擔任講者請洽 Niko。</li>
+                    <li>想報名擔任講者請點上方按鈕報名。</li>
                   </ul>
                 </InfoCard>
               </div>
@@ -233,6 +265,7 @@ function App() {
           </p>
         </div>
       </footer>
+      <BackToTop />
     </div>
   );
 }

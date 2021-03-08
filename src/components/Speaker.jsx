@@ -24,7 +24,7 @@ function Speaker({
         </div>
       </div>
       <div className="columns">
-        <div className="column content is-desktop">
+        <div className="column content is-desktop" style={{ whiteSpace: 'break-spaces' }}>
           <blockquote>{`${blockquote}`}</blockquote>
           <p>{description}</p>
         </div>
